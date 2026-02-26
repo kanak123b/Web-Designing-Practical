@@ -1,0 +1,59 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>  MARKS  </title>
+</head>
+<body>
+<h2  style="color: blue; font-weight: bold;"> MARKS OBTAINED </h2>
+<table>
+<table border="1">
+<tr>
+<th rowspan= "2"> Name </th>
+<th colspan= "3"> Marks obtained in </th>
+<th rowspan= "2"> Status </th>
+</tr>
+<tr>
+<td> Maths </td>
+<td> Physics </td>
+<td> Chemistry </td>
+</tr>
+<tr>
+<td> Kanak Bhimte </td>
+<td> 45/50 </td>
+<td> 36/50 </td>
+<td> 41/50 </td>
+<td style="color: green; font-weight: bold;"> PASS </td>
+</tr>
+<tr>
+<td> Devika Parsatwar </td>
+<td> 43/50 </td>
+<td> 40/50 </td>
+<td> 49/50 </td>
+<td style="color: green; font-weight: bold;" > PASS </td>
+</tr>
+<tr>
+<td> Dhruvi Bhajbhuje </td> 
+<td> 48/50 </td>
+<td> 39/50 </td>
+<td> 40/50 </td>
+<td style="color: green; font-weight: bold;"> PASS </td>
+</tr>
+<tr>
+<td> Vanshika Mishra </td>
+<td> 42/50 </td> 
+<td> 35/50 </td>
+<td> 47/50 </td>
+<td style="color: green; font-weight: bold;"> PASS </td>
+</tr>
+<tr> 
+<td> Ojaswi Hiwrale </td> 
+<td> 2/50 </td>
+<td> 6/50 </td>
+<td> 0/50 </td> 
+<td style="color: red; font-weight: bold;"> FAIL </td>
+</table>
+</body>
+</html>
+
+
