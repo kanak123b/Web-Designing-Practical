@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Seminar Registration Form</title>
+</head>
+
+<body>
+
+<h2>Seminar / Scholarship Registration Form</h2>
+
+<form>
+
+<fieldset>
+<legend>Student Details</legend>
+
+Name: <input type="text" name="name"><br><br>
+
+Roll No: <input type="text" name="roll"><br><br>
+
+Email: <input type="text" name="email"><br><br>
+
+Gender:
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Course Details</legend>
+
+Select Course:
+<select>
+<option>B.Tech</option>
+<option>BCA</option>
+<option>B.Sc</option>
+</select>
+
+<br><br>
+
+Year:
+<select>
+<option>1st Year</option>
+<option>2nd Year</option>
+<option>3rd Year</option>
+<option>4th Year</option>
+</select>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Topics Interested</legend>
+
+<input type="checkbox"> Web Development <br>
+<input type="checkbox"> Artificial Intelligence <br>
+<input type="checkbox"> Cyber Security <br>
+
+</fieldset>
+
+<br>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
