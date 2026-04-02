@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery</title>
+    
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>My Image Gallery</h1>
+
+    <div class="gallery">
+
+        <div class="card">
+            <img src="https://picsum.photos/300?random=1">
+            <p>sky</p>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300?random=2">
+            <p>lake</p>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300?random=3">
+            <p>honey</p>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300?random=4">
+            <p>walk</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
