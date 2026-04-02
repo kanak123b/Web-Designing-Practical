@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Webpage</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        .content {
+            column-count: 3;
+            column-gap: 20px;
+            padding: 20px;
+        }
+
+        .box {
+            background: lightblue;
+            padding: 15px;
+            margin-bottom: 15px;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .icon-section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .icon {
+            font-size: 30px;
+            margin: 10px;
+            color: darkblue;
+        }
+
+        .transform {
+            width: 150px;
+            height: 150px;
+            background: orange;
+            margin: 20px auto;
+            transition: 0.5s;
+        }
+
+        .transform:hover {
+            transform: rotate(45deg) scale(1.2);
+        }
+
+        .animate {
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: relative;
+            animation: move 4s infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes move {
+            0% { left: 0; }
+            50% { left: 200px; }
+            100% { left: 0; }
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Responsive */
+        @media screen and (max-width: 768px) {
+            .content {
+                column-count: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Responsive Webpage</h1>
+    <p>Using CSS3 Features</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="content">
+    <div class="box">
+        <h3>About Web Design</h3>
+        <p>Web design involves creating visually appealing and user-friendly websites using HTML, CSS, and JavaScript.</p>
+    </div>
+
+    <div class="box">
+        <h3>Responsive Design</h3>
+        <p>Responsive design ensures that web pages look good on all devices including mobiles, tablets, and desktops.</p>
+    </div>
+
+    <div class="box">
+        <h3>CSS3 Features</h3>
+        <p>CSS3 provides advanced features like animations, transformations, gradients, and flexible layouts.</p>
+    </div>
+
+    <div class="box">
+        <h3>Benefits</h3>
+        <p>It improves user experience, increases accessibility, and makes websites more interactive.</p>
+    </div>
+</div>
+
+<div class="icon-section">
+    <h2>Our Features</h2>
+    <i class="fas fa-home icon"></i>
+    <i class="fas fa-user icon"></i>
+    <i class="fas fa-cog icon"></i>
+</div>
+
+<div class="transform"></div>
+
+<div class="animate"></div>
+
+<footer>
+    <p>© 2026 Web Design Lab Practical</p>
+</footer>
+
+</body>
+</html>
