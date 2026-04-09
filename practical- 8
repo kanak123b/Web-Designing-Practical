@@ -2,38 +2,69 @@
 <html>
 <head>
     <title>Image Gallery</title>
-    
-    <!-- External CSS Link -->
-    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            margin: 15px;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .box img {
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            transition: 0.5s;
+        }
+
+        /* Hover Effect */
+        .box img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+    </style>
+
 </head>
 
 <body>
 
-    <h1>My Image Gallery</h1>
+<h1>Image Gallery</h1>
 
-    <div class="gallery">
+<div class="gallery">
 
-        <div class="card">
-            <img src="https://picsum.photos/300?random=1">
-            <p>sky</p>
-        </div>
-
-        <div class="card">
-            <img src="https://picsum.photos/300?random=2">
-            <p>lake</p>
-        </div>
-
-        <div class="card">
-            <img src="https://picsum.photos/300?random=3">
-            <p>honey</p>
-        </div>
-
-        <div class="card">
-            <img src="https://picsum.photos/300?random=4">
-            <p>walk</p>
-        </div>
-
+    <div class="box">
+        <img src="https://picsum.photos/250/180?random=1" alt="Image 1">
     </div>
+
+    <div class="box">
+        <img src="https://picsum.photos/250/180?random=2" alt="Image 2">
+    </div>
+
+    <div class="box">
+        <img src="https://picsum.photos/250/180?random=3" alt="Image 3">
+    </div>
+
+    <div class="box">
+        <img src="https://picsum.photos/250/180?random=4" alt="Image 4">
+    </div>
+
+</div>
 
 </body>
 </html>
