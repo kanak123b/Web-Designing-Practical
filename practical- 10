@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iframe Practical</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        iframe {
+            border: 2px solid black;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML Iframe Demonstration</h1>
+
+    <!-- Embedding External Webpage -->
+    <h2>Embedded External Web Page</h2>
+    <iframe src="https://www.wikipedia.org" 
+            width="600" 
+            height="300"
+            title="Wikipedia Website">
+    </iframe>
+
+    <!-- Embedding YouTube Video -->
+    <h2>Embedded YouTube Video</h2>
+    <iframe width="600" 
+            height="300" 
+            src="https://www.youtube.com/embed/tgbNymZ7vqY" 
+            title="YouTube video"
+            allowfullscreen>
+    </iframe>
+
+    <!-- Embedding Google Map -->
+    <h2>Embedded Google Map</h2>
+    <iframe 
+        src="https://www.google.com/maps?q=Nagpur&output=embed"
+        width="600" 
+        height="300"
+        title="Google Map"
+        loading="lazy">
+    </iframe>
+
+</body>
+</html>
